@@ -1,9 +1,8 @@
-//package main.java;
+import java.awt.Color;
 
+import org.dalton.polyfun.Polynomial;
 import org.opensourcephysics.display.Trail;
 import org.opensourcephysics.frames.PlotFrame;
-
-import java.awt.Color;
 
 /**
  * Introduction to Open Source Physics and JUnit test.
@@ -11,7 +10,23 @@ import java.awt.Color;
 public class GettingStarted {
     public static void main(String[] args) {
         /*
-              Open Source Physics (OSP) Example
+            Polynomial examples
+            There are several ways to initialize a Polynomial. See all the constructors
+            in the JavaDoc.
+         */
+        Polynomial fx = new Polynomial(new double[]{5, 1, 3}); // pass in the coefficients
+        System.out.println("f(x) = " + fx);
+
+        // Get a coefficient
+        System.out.println("The coefficient for x^2 is: " + fx.getCoefficientAtTerm(2));  // term is the exponent of x
+        System.out.println("The coefficient for x^1 is: " + fx.getCoefficientAtTerm(1));  // term is the exponent of x
+        System.out.println("The coefficient for x^0 is: " + fx.getCoefficientAtTerm(0));  // term is the exponent of x
+
+        // Evaluate the polynomial
+        System.out.println("f(5) = " + fx.eval(5));
+        
+        /*
+            Open Source Physics (OSP) Example
          */
         PlotFrame plotFrame = new PlotFrame("x", "y", "Plotting Examples");
 
@@ -26,10 +41,10 @@ public class GettingStarted {
         // OPTION 1: Append connected points
         plotFrame.setLineColor(0, Color.RED);   // optional set line color
         plotFrame.setConnected(true); // connect the points
-        plotFrame.append(0, 1, 1);
-        plotFrame.append(0, 0, 0);
-        plotFrame.append(1, 2, 2); // a different datasetIndex creates a new line
-        plotFrame.append(1, 3, 3); // a different datasetIndex creates a new line
+        plotFrame.append(0, 1, fx.eval(1));
+        plotFrame.append(0, 0, fx.eval(0));
+        plotFrame.append(1, 2, fx.eval(2)); // a different datasetIndex creates a new line
+        plotFrame.append(1, 3, fx.eval(3)); // a different datasetIndex creates a new line
 
         // OPTION 2: Add a Trail
         Trail trail = new Trail();

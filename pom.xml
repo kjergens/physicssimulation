@@ -26,6 +26,13 @@
             <scope>system</scope>
             <systemPath>${project.basedir}/libs/osp.jar</systemPath>
         </dependency>
+         <dependency>
+            <groupId>org.dalton</groupId>
+            <artifactId>polyfun</artifactId>
+            <version>1.2.0</version> <!-- osp-5.1.0 -->
+            <scope>system</scope>
+            <systemPath>${project.basedir}/libs/polyfun.jar</systemPath>
+        </dependency>
     </dependencies>
 
     <build>
