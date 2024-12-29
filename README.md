@@ -34,7 +34,7 @@ mvn -version
 
 
 ## C. Import and Build project
-1. In VSCode, View menu > Command Palette > Git Clone > paste this URL
+1. In VSCode, View menu > Command Palette > Git Clone > paste `https://github.com/kjergens/physicssimulation.git`
 2. Terminal menu > Run Build Task 
 3. See more in the text book. https://kjergens.github.io/csx/
 
