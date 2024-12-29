@@ -1,9 +1,9 @@
 # Physics Simulations in Java Starter Code
 
 ## A. Install Java
-1. Install Java by going to https://www.oracle.com/java/technologies/downloads/ and select the latest, for your machine (macOS, Windows, etc.)
+1. Go to https://www.oracle.com/java/technologies/downloads/ and select the latest Java version for your machine (macOS, Windows)
 
-2. For Mac, in Terminal `
+2. For Mac, in Terminal
 ```
 mkdir ./Library/Java/JavaVirtualMachines
 ```
