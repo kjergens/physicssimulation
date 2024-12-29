@@ -1,11 +1,19 @@
 # Physics Simulations in Java Starter Code
 
-## 1. Install Java
-- Install Java by going to https://www.oracle.com/java/technologies/downloads/ and select the latest, for your machine (macOS, Windows, etc.)
-- For Mac, in Terminal `mkdir ./Library/Java/JavaVirtualMachines`
-- For Mac, in Terminal `mv ~/Downloads/jdk-23.0.1.jdk ./Library/Java/JavaVirtualMachines`
+## A. Install Java
+1. Install Java by going to https://www.oracle.com/java/technologies/downloads/ and select the latest, for your machine (macOS, Windows, etc.)
 
-## 2. Install Maven (Mac)
+2. For Mac, in Terminal `
+```
+mkdir ./Library/Java/JavaVirtualMachines
+```
+
+3. For Mac, in Terminal
+```
+mv ~/Downloads/jdk-23.0.1.jdk ./Library/Java/JavaVirtualMachines
+```
+
+## B. Install Maven (Mac)
 1. First, ensure you have Homebrew installed on your Mac. If not, you can install it by running this command in Terminal:
 
 ```bash
@@ -25,8 +33,8 @@ mvn -version
 ```
 
 
-## 3. Import and Build project
-- In VSCode, View menu > Command Palette > Git Clone > paste this URL
-- Terminal menu > Run Build Task 
-- See more in the text book. https://kjergens.github.io/csx/
+## C. Import and Build project
+1. In VSCode, View menu > Command Palette > Git Clone > paste this URL
+2. Terminal menu > Run Build Task 
+3. See more in the text book. https://kjergens.github.io/csx/
 
