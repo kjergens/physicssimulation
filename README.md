@@ -32,8 +32,12 @@ brew install maven
 mvn -version
 ```
 
+## C. Install VSCode
+1. Go to https://code.visualstudio.com/download 
+2. Select the option the best fits your system
+   
 
-## C. Import and Build project
+## D. Import and Build project
 1. In VSCode, View menu > Command Palette > Git Clone > paste `https://github.com/kjergens/physicssimulation.git`
 2. Terminal menu > Run Build Task 
 3. See more in the text book. https://kjergens.github.io/csx/
