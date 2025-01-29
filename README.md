@@ -26,10 +26,12 @@ mv ~/Downloads/jdk-23.0.1.jdk ./Library/Java/JavaVirtualMachines
 brew install maven
 ```
 
-TROUBLESHOOTING:
-command not found 'brew'
+3. Add homebrew to the PATH variable: You can do so by running export
 
-3. After the installation is complete, you can verify that Maven was installed correctly by checking its version:
+   ```PATH="/opt/homebrew/bin:$PATH" in your terminal and then echo $PATH.
+   ```
+
+4. After the installation is complete, you can verify that Maven was installed correctly by checking its version:
 
 ```bash
 mvn -version
