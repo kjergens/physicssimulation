@@ -46,7 +46,7 @@ mvn -version
 
 ## D. Import and Build project
 1. In VSCode, View menu > Command Palette > Git Clone > paste `https://github.com/kjergens/physicssimulation.git`
-2. In VS Code, select the menue Terminal > Run Build Task ...
+2. In VS Code, select the menu Terminal > Run Build Task ...
 3. Install the Java Extension Pack
 4. See more in the text book. https://kjergens.github.io/csx/
 
