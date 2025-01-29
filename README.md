@@ -26,6 +26,9 @@ mv ~/Downloads/jdk-23.0.1.jdk ./Library/Java/JavaVirtualMachines
 brew install maven
 ```
 
+TROUBLESHOOTING:
+command not found 'brew'
+
 3. After the installation is complete, you can verify that Maven was installed correctly by checking its version:
 
 ```bash
