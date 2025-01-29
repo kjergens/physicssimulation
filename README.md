@@ -20,10 +20,10 @@ mv ~/Downloads/jdk-23.0.2.jdk ./Library/Java/JavaVirtualMachines
 /bin/bash -c "$(curl -fsSL https://raw.githubusercontent.com/Homebrew/install/HEAD/install.sh)"
 ```
 
-2. Add homebrew to the PATH variable: You can do so by running export
+2. Add homebrew to the PATH variable: You can do so by pasting the following into Terminal:
 
 ```
-PATH="/opt/homebrew/bin:$PATH"
+export PATH="/opt/homebrew/bin:$PATH"
 ```
 
 3. Once Homebrew is installed, you can install Maven by running the following command in Terminal:
