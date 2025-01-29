@@ -2,15 +2,15 @@
 
 ## A. Install Java
 1. Go to https://www.oracle.com/java/technologies/downloads/ and select the latest Java version for your machine (macOS, Windows)
-
-2. For Mac, in Terminal
+2. Double-click the package you downloaded to install it.
+3. (Mac-only) Open Terminal and enter:
 ```
 mkdir ./Library/Java/JavaVirtualMachines
 ```
 
-3. For Mac, in Terminal
+4. (Mac-only) Open Terminal and enter:
 ```
-mv ~/Downloads/jdk-23.0.1.jdk ./Library/Java/JavaVirtualMachines
+mv ~/Downloads/jdk-23.0.2.jdk ./Library/Java/JavaVirtualMachines
 ```
 
 ## B. Install Maven (Mac)
@@ -41,10 +41,12 @@ mvn -version
 ## C. Install VSCode
 1. Go to https://code.visualstudio.com/download 
 2. Select the option the best fits your system
+3. Double-click the package yuo downloaded to install it. 
    
 
 ## D. Import and Build project
 1. In VSCode, View menu > Command Palette > Git Clone > paste `https://github.com/kjergens/physicssimulation.git`
-2. Terminal menu > Run Build Task 
-3. See more in the text book. https://kjergens.github.io/csx/
+2. In VS Code, select the menue Terminal > Run Build Task ...
+3. Install the Java Extension Pack
+4. See more in the text book. https://kjergens.github.io/csx/
 
