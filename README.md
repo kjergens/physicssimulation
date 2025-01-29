@@ -28,8 +28,9 @@ brew install maven
 
 3. Add homebrew to the PATH variable: You can do so by running export
 
-   ```PATH="/opt/homebrew/bin:$PATH" in your terminal and then echo $PATH.
-   ```
+```
+PATH="/opt/homebrew/bin:$PATH"
+```
 
 4. After the installation is complete, you can verify that Maven was installed correctly by checking its version:
 
