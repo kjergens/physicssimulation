@@ -1,17 +1,26 @@
 # Physics Simulations in Java Starter Code
 
-## A. Install Java
+## A. Install VSCode
+1. Go to https://code.visualstudio.com/download 
+2. Select the option the best fits your system
+3. Double-click the package yuo downloaded to install it. 
+
+## B. Install Java
+OPTION 1 (Mac)
 1. Go to https://www.oracle.com/java/technologies/downloads/ and select the latest Java version for your machine (macOS, Windows)
 2. Double-click the package you downloaded to install it.
-3. (Mac-only) Open Terminal and enter:
+3. Open Terminal and enter:
 ```
 mkdir ./Library/Java/JavaVirtualMachines
 ```
 
-4. (Mac-only) Open Terminal and enter:
+4. Open Terminal and enter:
 ```
 mv ~/Downloads/jdk-23.0.2.jdk ./Library/Java/JavaVirtualMachines
 ```
+
+OPTION 2 (Windows)
+1. Install Java Coding Pack for VSCode for Windows
 
 ## B. Install Maven (Mac)
 1. First, ensure you have Homebrew installed on your Mac. If not, you can install it by running this command in Terminal:
@@ -37,11 +46,6 @@ brew install maven
 ```bash
 mvn -version
 ```
-
-## C. Install VSCode
-1. Go to https://code.visualstudio.com/download 
-2. Select the option the best fits your system
-3. Double-click the package yuo downloaded to install it. 
    
 
 ## D. Import and Build project
