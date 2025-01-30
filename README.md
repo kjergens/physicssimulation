@@ -1,5 +1,5 @@
 # Physics Simulations in Java Starter Code
-
+Do the following to install VSCode, Java and the starter code:
 1. Install Java Coding Pack for VSCode for Windows - https://code.visualstudio.com/docs/java/java-tutorial
 2. Install Java Extension Pack - https://code.visualstudio.com/docs/java/java-build
 3. Open VS Code
@@ -8,6 +8,7 @@
 6. Paste `https://github.com/kjergens/physicssimulation.git`
 7. Go the the menu called Terminal > Run Build Task ...
 
+## OLD INSTRUCTIONS
 ## A. (OLD) Install VSCode
 1. Go to https://code.visualstudio.com/download 
 2. Select the option the best fits your system
