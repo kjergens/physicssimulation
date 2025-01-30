@@ -1,11 +1,19 @@
 # Physics Simulations in Java Starter Code
 
-## A. Install VSCode
+1. Install Java Coding Pack for VSCode for Windows - https://code.visualstudio.com/docs/java/java-tutorial
+2. Install Java Extension Pack - https://code.visualstudio.com/docs/java/java-build
+3. Open VS Code
+4. Open the Command Palette. (View > Command Palette)
+5. Type Git:Clone
+6. Paste `https://github.com/kjergens/physicssimulation.git`
+7. Go the the menu called Terminal > Run Build Task ...
+
+## A. (OLD) Install VSCode
 1. Go to https://code.visualstudio.com/download 
 2. Select the option the best fits your system
 3. Double-click the package yuo downloaded to install it. 
 
-## B. Install Java
+## B. (OLD) Install Java
 ### Mac
 1. Go to https://www.oracle.com/java/technologies/downloads/ and select the latest Java version for your machine (macOS, Windows)
 2. Double-click the package you downloaded to install it.
@@ -18,9 +26,6 @@ mkdir ./Library/Java/JavaVirtualMachines
 ```
 mv ~/Downloads/jdk-23.0.2.jdk ./Library/Java/JavaVirtualMachines
 ```
-
-### Windows
-1. Install Java Coding Pack for VSCode for Windows - https://code.visualstudio.com/docs/java/java-tutorial 
 
 ## C. Install Maven 
 ### Mac Instructions:
@@ -48,8 +53,6 @@ brew install maven
 mvn -version
 ```
    
-### Windows Instructions:
-1. Select - https://code.visualstudio.com/docs/java/java-build
 
 ## D. Import and Build project
 1. In VSCode, View menu > Command Palette > Git Clone > paste `https://github.com/kjergens/physicssimulation.git`
