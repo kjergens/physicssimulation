@@ -6,7 +6,10 @@ Do the following to install VSCode, Java and the starter code:
 4. Open the Command Palette. (View > Command Palette)
 5. Type Git:Clone
 6. Paste `https://github.com/kjergens/physicssimulation.git`
-7. Go the the menu called Terminal > Run Build Task ...
+7. This should download a folder called 'physicssimulations' and have several subfolders and code in it.
+8. Go the the menu called Terminal > Run Build Task ...
+9. Test if it worked by opening physicssimulations > src/main/java > GettingStarted.java
+
 
 ## OLD INSTRUCTIONS
 ## A. (OLD) Install VSCode
