@@ -6,7 +6,7 @@
 3. Double-click the package yuo downloaded to install it. 
 
 ## B. Install Java
-OPTION 1 (Mac)
+###Mac
 1. Go to https://www.oracle.com/java/technologies/downloads/ and select the latest Java version for your machine (macOS, Windows)
 2. Double-click the package you downloaded to install it.
 3. Open Terminal and enter:
@@ -19,11 +19,11 @@ mkdir ./Library/Java/JavaVirtualMachines
 mv ~/Downloads/jdk-23.0.2.jdk ./Library/Java/JavaVirtualMachines
 ```
 
-OPTION 2 (Windows)
+###Windows
 1. Install Java Coding Pack for VSCode for Windows - https://code.visualstudio.com/docs/java/java-tutorial 
 
 ## C. Install Maven 
-Mac Instructions:
+###Mac Instructions:
 1. First, ensure you have Homebrew installed on your Mac. If not, you can install it by running this command in Terminal:
 
 ```bash
@@ -48,7 +48,7 @@ brew install maven
 mvn -version
 ```
    
-Windows Instructions:
+###Windows Instructions:
 1. Select - https://code.visualstudio.com/docs/java/java-build
 
 ## D. Import and Build project
