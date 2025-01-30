@@ -22,7 +22,8 @@ mv ~/Downloads/jdk-23.0.2.jdk ./Library/Java/JavaVirtualMachines
 OPTION 2 (Windows)
 1. Install Java Coding Pack for VSCode for Windows - https://code.visualstudio.com/docs/java/java-tutorial 
 
-## B. Install Maven (Mac)
+## C. Install Maven 
+Mac Instructions:
 1. First, ensure you have Homebrew installed on your Mac. If not, you can install it by running this command in Terminal:
 
 ```bash
@@ -47,6 +48,8 @@ brew install maven
 mvn -version
 ```
    
+Windows Instructions:
+1. Select - https://code.visualstudio.com/docs/java/java-build
 
 ## D. Import and Build project
 1. In VSCode, View menu > Command Palette > Git Clone > paste `https://github.com/kjergens/physicssimulation.git`
