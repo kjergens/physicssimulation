@@ -20,7 +20,7 @@ mv ~/Downloads/jdk-23.0.2.jdk ./Library/Java/JavaVirtualMachines
 ```
 
 OPTION 2 (Windows)
-1. Install Java Coding Pack for VSCode for Windows
+1. Install Java Coding Pack for VSCode for Windows - https://code.visualstudio.com/docs/java/java-tutorial 
 
 ## B. Install Maven (Mac)
 1. First, ensure you have Homebrew installed on your Mac. If not, you can install it by running this command in Terminal:
