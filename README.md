@@ -12,12 +12,12 @@ Do the following to install VSCode, Java and the starter code:
 
 
 ## OLD INSTRUCTIONS
-## A. (OLD) Install VSCode
+## A. Install VSCode
 1. Go to https://code.visualstudio.com/download 
 2. Select the option the best fits your system
 3. Double-click the package yuo downloaded to install it. 
 
-## B. (OLD) Install Java
+## B. Install Java
 ### Mac
 1. Go to https://www.oracle.com/java/technologies/downloads/ and select the latest Java version for your machine (macOS, Windows)
 2. Double-click the package you downloaded to install it.
