@@ -12,7 +12,10 @@ Do the following to install VSCode, Java, other important components, and, final
 - [ ] 10. Test if it worked by opening physicssimulations > src/main/java > GettingStarted.java
 
 
-## OLD INSTRUCTIONS
+
+
+
+# OLD INSTRUCTIONS
 ## A. Install VSCode
 1. Go to https://code.visualstudio.com/download 
 2. Select the option the best fits your system
