@@ -11,7 +11,7 @@ Do the following to install VSCode, Java, other important components, and, final
 - [ ] 6. In the Command bar (at the top), type `https://github.com/kjergens/physicssimulation.git` 
 - [ ] 7. There should be a dialog pop-up that asks which folder. Select *New Folder* and name it *workspace*.
 - [ ] 8. Git should download a folder called 'physicssimulations' with several subfolders and code in it.
-- [ ] 9. Build the project by going to the menu (Terminal > Run Build Task ...)
+- [ ] 9. Build the project by going to the menu (*Terminal > Run Build Task ...*)
 - [ ] 10. Test if it worked by opening *physicssimulations > src/main/java > GettingStarted.java*
 
 
