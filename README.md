@@ -6,7 +6,7 @@ Do the following to install VSCode, Java, other important components, and, final
 - [ ] 4. Open the Command Palette by going to the menu (View > Command Palette)
 - [ ] 5. Type Git:Clone in the Command bar (at the top), then select Git:Clone from the dropdown.
       If Git:Clone does not appear in the drop-down:
-     - [ ] Go to (View > Source Control). Follow the instructions to install Git.
+     - [ ] Go to menu (View > Source Control). Follow the instructions to install Git.
      - [ ] Restart VSCode and redo Steps 4 and 5.
 - [ ] 6. Paste `https://github.com/kjergens/physicssimulation.git` in the Command bar (at the top).
 - [ ] 7. There should be a dialog pop-up that asks which folder. Select 'New Folder' and name it 'workspace'.
