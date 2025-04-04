@@ -4,7 +4,7 @@ Do the following to install VSCode, Java, other important components, and, final
 - [ ] 2. Install Java Extension Pack - https://code.visualstudio.com/docs/java/java-build
 - [ ] 3. Open VS Code
 - [ ] 4. Open the Command Palette by going to the menu (*View > Command Palette*)
-- [ ] 5. Type Git:Clone in the Command bar (at the top), then select Git:Clone from the dropdown.
+- [ ] 5. In the Command Bar (at the top), type Git:Clone, then select Git:Clone from the dropdown.
       If Git:Clone does not appear in the drop-down:
      - [ ] Go to menu (*View > Source Control*). Follow the instructions to install Git.
      - [ ] Restart VSCode and redo Steps 4 and 5.
