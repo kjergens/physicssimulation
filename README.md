@@ -1,4 +1,4 @@
-# Physics Simulations Setup Guide
+# Advanced Java Setup Guide
 Do the following to install VSCode, Java, other important components, and, finally, the starter code:
 - [ ] 1. Install Java Coding Pack for VSCode - https://code.visualstudio.com/docs/java/java-tutorial
 - [ ] 2. Install Java Extension Pack - https://code.visualstudio.com/docs/java/java-build
