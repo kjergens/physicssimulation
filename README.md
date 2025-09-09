@@ -1,7 +1,7 @@
 # Advanced Java Setup Guide
 Do the following to install VSCode, Java, other important components, and, finally, the starter code:
 - [ ] 1. Install Java Coding Pack for VSCode - https://code.visualstudio.com/docs/java/java-tutorial
-- [ ] 2. Use View > Extenstion and search for  Java Extension Pack (Microsoft) and install
+- [ ] 2. Use View > Extension and search for  Java Extension Pack (Microsoft) and install
 - [ ] 3. Open the Command Palette by going to the menu (*View > Command Palette*)
 - [ ] 4. In the Command Bar (at the top), type Git:Clone, then select Git:Clone from the dropdown.
       If Git:Clone does not appear in the drop-down:
